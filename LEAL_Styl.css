@@ -2,4 +2,58 @@ header{
     height: 50px;
     background-color: #DB0B0B;
     margin: -10px;
+    text-align: center;
 }
+h1{
+    
+    font-size:xx-large;
+    margin:0px;
+    padding: 3px;   
+    color: #FFF;
+    background-color: #35965d;
+    text-align: center;
+    
+    
+}
+h2{
+    font-size: 4 em;
+    margin: 0px;
+    padding: 3px;   
+    color: #FFF;
+    background-color: #35965d;
+    text-align: left;
+    text-indent: 0.5cm;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #35965d;
+    border: 1px solid #555
+  }
+  nav ul li:hover {
+	background-color: rgb(30, 53, 22); 
+  }
+  .active {
+    background-color: #022e1e;
+    color: white;
+  }
+  li {
+    float: left;
+    display: inline;
+  } 
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #35965d;
+  }
+  li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 55px;
+    text-decoration: none;
+  }
