@@ -10,7 +10,7 @@ h1{
     margin:0px;
     padding: 3px;   
     color: #FFF;
-    background-color: #35965d;
+    background-color: #DB0B0B;
     text-align: center;
     
     
@@ -20,7 +20,7 @@ h2{
     margin: 0px;
     padding: 3px;   
     color: #FFF;
-    background-color: #35965d;
+    background-color: #DB0B0B;
     text-align: left;
     text-indent: 0.5cm;
 }
@@ -29,14 +29,14 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #35965d;
+    background-color: #555;
     border: 1px solid #555
   }
   nav ul li:hover {
-	background-color: rgb(30, 53, 22); 
+	background-color: rgb(38, 41, 37); 
   }
   .active {
-    background-color: #022e1e;
+    background-color: #580505;
     color: white;
   }
   li {
