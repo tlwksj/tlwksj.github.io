@@ -131,7 +131,10 @@ h4{
       border-collapse: collapse;
       border-color: #000;
       margin-top: -0.5cm;
-      
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .left table:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   .middle{
     margin-top: -1.5cm;
@@ -144,6 +147,10 @@ h4{
       border-collapse: collapse;
       margin-left: 0.5cm;
       margin-top: -0.5cm;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .middle table:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   .middle th{
     font-size: 1em;
@@ -156,7 +163,12 @@ h4{
   
   .top table{
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
+  .top table:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
   .top th{
     font-size: 1em;
     background-color: #db0b0b7a;
@@ -202,8 +214,12 @@ h4{
   border-collapse: collapse;
   margin-left: 0.5cm;
   padding: -0.5cm;
-      
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);   
 }
+.middlePhoto:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .rightRes{
   float: right;
   width: 55%;
@@ -223,12 +239,16 @@ h4{
   box-shadow: 0 0 20px rgba(30, 51, 30, 0.021);
 }
 .rightRes table{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   height: 100%;
   float: right;
   border-collapse: collapse;
   border-color: #000;
   width:100%;
   margin-top: -25%;  
+}
+.rightRes table:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .right{
@@ -257,29 +277,33 @@ h4{
   border-color: #000;
   width:100%;
   margin-top: -0.5cm; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.right table:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; 
-  width: 30%;
+  width: 20%;
   margin-right: 0.5cm;
   margin-top: 0.5cm;
-  margin-left: 0.5cm;
+  margin-left: 0.25cm;
   margin-bottom: 0.5cm;
   height:fit-content;
   padding: 2px;
 
 }
 .card h5{
-  font-size: 25px; 
+  font-size: 20px; 
   text-align: center;
 }
 
 .card img {
   border-radius: 5px 5px 0 0;
-  margin: 0cm 0.25cm 0cm 0.90cm;
+  margin: 0cm 0.25cm 0cm 0.70cm;
   align-items: center;
   width: 80%;
 }
@@ -291,4 +315,38 @@ h4{
 .container {
   padding: 2px 16px;
 }
-
+.Team{
+  display: flex;
+  margin-left: 2cm;
+  margin-right: -2cm;
+}
+#Alpine:hover{
+  box-shadow: 1px 8px 16px 1px #FD4BC7;
+}
+#Aston:hover{
+  box-shadow: 1px 8px 16px 1px #00594f;
+}
+#Ferrari:hover{
+  box-shadow: 1px 8px 16px 1px #A6051A;
+}
+#Haas:hover{
+  box-shadow: 1px 8px 16px 1px #B6BABD;
+}
+#Kick:hover{
+  box-shadow: 1px 8px 16px 1px #52E252;
+}
+#Mclaren:hover{
+  box-shadow: 1px 8px 16px 1px #FF8000;
+}
+#Mercedes:hover{
+  box-shadow: 1px 8px 16px 1px #27F4D2;
+}
+#RB:hover{
+  box-shadow: 1px 8px 16px 1px #6692FF;
+}
+#RedBull:hover{
+  box-shadow: 1px 8px 16px 1px #3671C6;
+}
+#Williams:hover{
+  box-shadow: 1px 8px 16px 1px #64C4FF;
+}
