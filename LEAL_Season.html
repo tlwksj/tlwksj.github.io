@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel="stylesheet" type="text/css" href="LEAL_Styl.css"/>
+        <link rel="stylesheet" type="text/css" href="LEAL_Styl.css" media="screen,print"/>
+        <link rel="stylesheet" type="text/css" href="LEAL_mobStyl.css" media="screen and (max-width:950px)" />
+        <meta name = "Author" content="Trishelle Leal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="LEAL_Java.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 <title> Vroom Vroom Mania </title>
     </head>
     <header>
+        <div class="mobile">
             <nav class = "menu">
                 <ul>
+                    <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                    <div id = "links">
                     <li><a href="LEAL_Hist.html"> Historical </a></li>
                     <li><a href="LEAL_Grid.html"> Drivers </a></li>
-                    <li><a href="LEAL_Season.html" class="active" > Current Season</a></li>
+                    <li><a href="LEAL_Season.html" > Current Season</a></li>
                     <li><a href="LEAL_Next.html" >Next Up</a></li>
-                    <li><a href="index.html" >Home</a></li>
-                    
+                    <li><a href="index.html" class="active">Home</a></li>
+                    </div>
               </ul>
             </nav>
-            <br>
-            <h2 style="text-align: left; font-size: 2em;"> The 2024 Season </h2>
+        </div>
+        <br>
+        <h2 style="text-align: left; font-size: 2em;"> The 2024 Season </h2>
 </header>
-<body>
 
+<body>
+        <div class="fon">
+            <p>Current Champion: Max Verstappen</p>
+            <p>Nationality: Dutch</p>
+            <p>Points: 110</p>
+            <img class="fonfoto" src="https://imgs.search.brave.com/R9cDr4vjOcXPAcX-wFEwdeBY9v7N9OY0iEtuYA-TG-E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4t/My5tb3RvcnNwb3J0/LmNvbS9pbWFnZXMv/bWdsLzZEMVhiZVYw/L3M4MDAvbWF4LXZl/cnN0YXBwZW4tcmVk/LWJ1bGwtcmFjaW5n/LmpwZw"
+                            alt="Picture of Max Verstappen obtained by search."/>
+        </div>
         <div class="top">
             <table>
                 <tr>
@@ -33,7 +53,7 @@
                           <h4> Max Verstappen </h4>
                      </td>
                      <td> Netherlands </td>
-                     <td> 77 Points </td>
+                     <td> 110 Points </td>
                      <td>
                         <img src="https://imgs.search.brave.com/R9cDr4vjOcXPAcX-wFEwdeBY9v7N9OY0iEtuYA-TG-E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4t/My5tb3RvcnNwb3J0/LmNvbS9pbWFnZXMv/bWdsLzZEMVhiZVYw/L3M4MDAvbWF4LXZl/cnN0YXBwZW4tcmVk/LWJ1bGwtcmFjaW5n/LmpwZw"
                             alt="Picture of Max Verstappen obtained by search."/>
@@ -92,7 +112,9 @@
                         Apr 19-21
                         </td>
                         <td>
-                            Coming Soon..!
+                            1. Max Verstappen (RedBull Racing)<br>
+                            2. Lando Norris (McLaren)<br>
+                            3. Sergio "Checo" Perez (RedBull Racing)
                         </td>
                 </tr>
                 <tr>
@@ -260,27 +282,27 @@
                 <tr>
                     <td> 1.</td>
                     <td> Red Bull Racing Honda RBPT </td>
-                    <td> 141 </td>
+                    <td> 195 </td>
                 </tr>
                 <tr>
                     <td> 2.</td>
                     <td> Ferrari  </td>
-                    <td> 120 </td>
+                    <td> 151 </td>
                 </tr>
                 <tr>
                     <td> 3.</td>
                     <td> Mclaren Mercedes </td>
-                    <td> 69 </td>
+                    <td> 96 </td>
                 </tr>
                 <tr>
                     <td> 4.</td>
                     <td> Mercedes </td>
-                    <td> 34 </td>
+                    <td> 52 </td>
                 </tr>
                 <tr>
                     <td> 5.</td>
                     <td> Aston Martin Aramco Mercedes </td>
-                    <td> 33 </td>
+                    <td> 40 </td>
                 </tr>
                 <tr>
                     <td> 6.</td>
@@ -290,7 +312,7 @@
                 <tr>
                     <td> 7.</td>
                     <td> HAAS Ferrari </td>
-                    <td> 4 </td>
+                    <td> 5 </td>
                 </tr>
                 <tr>
                     <td> 8.</td>

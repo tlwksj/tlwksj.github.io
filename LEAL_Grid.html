@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel="stylesheet" type="text/css" href="LEAL_Styl.css"/>
+        <link rel="stylesheet" type="text/css" href="LEAL_Styl.css" media="screen,print"/>
+        <link rel="stylesheet" type="text/css" href="LEAL_mobStyl.css" media="screen and (max-width:950px)" />
+        <meta name = "Author" content="Trishelle Leal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="LEAL_Java.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> Vroom Vroom Mania </title>
     </head>
     <header>
             <nav class = "menu">
-                <ul>
-                    <li><a href="LEAL_Hist.html"> Historical </a></li>
-                    <li><a href="LEAL_Grid.html" class="active"> Drivers </a></li>
-                    <li><a href="LEAL_Season.html" > Current Season</a></li>
-                    <li><a href="LEAL_Next.html"  >Next Up</a></li>
-                    <li><a href="index.html" >Home</a></li>
-                    
-              </ul>
-            </nav>
+                <div class="mobile">
+                    <nav class = "menu">
+                        <ul>
+                            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                            <i class="fa fa-bars"></i>
+                            </a>
+                            <div id = "links">
+                            <li><a href="LEAL_Hist.html"> Historical </a></li>
+                            <li><a href="LEAL_Grid.html"> Drivers </a></li>
+                            <li><a href="LEAL_Season.html" > Current Season</a></li>
+                            <li><a href="LEAL_Next.html" >Next Up</a></li>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            </div>
+                      </ul>
+                    </nav>
+                </div>
             <br>
+            <h2 style="text-align: left; font-size: 2em;"> The '24 Grid </h2>
     </header>
-            <h2 style="text-align: left; font-size: 2em;"> Coming soon hehe :D</h2>
+            <body>
+                <div class="Team" style="display: inline;">
+                <div class="card">
+                    <h5>Esteban Ocon</h5>
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/ocon" alt="Esteban Ocon">
+                    <div class="container">
+                      <h4><b>Number: 31</b></h4>
+                      <p>Nationality: France</p>
+                      <p>Podiums: 3</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <h5>Pierre Gasly</h5>
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/gasly" alt="Esteban Ocon">
+                    <div class="container">
+                      <h4><b>Number: 10</b></h4>
+                      <p>Nationality: France</p>
+                      <p>Podiums: 4</p>
+                    </div>
+                  </div>
+                </div>
+                </body>
         </html>

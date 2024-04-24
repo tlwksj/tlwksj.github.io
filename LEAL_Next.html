@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel="stylesheet" type="text/css" href="LEAL_Styl.css"/>
+        <link rel="stylesheet" type="text/css" href="LEAL_Styl.css" media="screen,print"/>
+        <link rel="stylesheet" type="text/css" href="LEAL_mobStyl.css" media="screen and (max-width:950px)" />
+        <meta name = "Author" content="Trishelle Leal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="LEAL_Java.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <title> Vroom Vroom Mania </title>
     </head>
     <header>
+        <div class="mobile">
             <nav class = "menu">
                 <ul>
+                    <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                    <div id = "links">
                     <li><a href="LEAL_Hist.html"> Historical </a></li>
                     <li><a href="LEAL_Grid.html"> Drivers </a></li>
                     <li><a href="LEAL_Season.html" > Current Season</a></li>
-                    <li><a href="LEAL_Next.html" class="active" >Next Up</a></li>
-                    <li><a href="index.html" >Home</a></li>
-                    
+                    <li><a href="LEAL_Next.html" >Next Up</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    </div>
               </ul>
             </nav>
-            <br>
+        </div>
+        <br>
+        <h2 style="text-align: left; font-size: 2em;"> Next Up</h2>
     </header>
-            <h2 style="text-align: left; font-size: 2em;"> Next Up</h2>
+           
             <body>
                 <h3> China Grand Prix</h3>
                 <div class="info">
@@ -36,7 +49,8 @@
                   </table>
             </div>
                 <br>
-            <div class="left" style="width: 90%;">
+
+            <div class="left">
             <table style="margin-top: 0.6cm;">
                 <tr>
                 <th> Last Race Results (2019)</th>
@@ -65,6 +79,52 @@
                 <tr> <td style="font-weight: bold;"> Fastest Lap</td>
                     <td>Pierre Gasly - Red Bull Racing-Honda</td></tr>
             </table>
+            <div class="rightRes">
+                <table>
+                    <tr>
+                    <th> Race Results (2024)</th>
+                    <th></th>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"> Sprint results</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Max Verstappen</td>
+                        <td> RedBull Racing</td>
+                    </tr>
+                    <tr>
+                        <td>Lewis Hamilton</td>
+                        <td> Mercedes </td>
+                    </tr>
+                    <tr>
+                        <td> Fernando Alonso </td>
+                        <td> Aston Martin </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Pole Position</td>
+                        <td>Max Verstappen - RedBull Racing</td>   
+                    </tr>
+                    <tr> 
+                        <td style="font-weight: bold;">Podium</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Max Verstappen </td>
+                        <td> RedBull Racing </td>
+                    </tr>
+                    <tr>
+                        <td> Lando Norris</td>
+                        <td> McLaren </td>
+                    </tr>
+                    <tr>
+                        <td> Sergio "Checo" Perez</td>
+                        <td> RedBull Racing </td>
+                    </tr>
+                    <tr> <td style="font-weight: bold;"> Fastest Lap</td>
+                        <td> Fernando Alonso - Aston Martin</td></tr>
+                </table>
+                </div>
             </div>
            <div class="right">
             <h3 style="color: black; font-size: 1.5em;"> Weekend Schedule</h3>
