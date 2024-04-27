@@ -18,10 +18,10 @@
                     <i class="fa fa-bars"></i>
                     </a>
                     <div id = "links">
-                    <li><a href="LEAL_Hist.html"> Historical </a></li>
+                    <li><a href="LEAL_Hist.html"  class="active"> Historical </a></li>
                     <li><a href="LEAL_Grid.html"> Drivers </a></li>
                     <li><a href="LEAL_Season.html" > Current Season</a></li>
-                    <li><a href="LEAL_Next.html"  class="active">Next Up</a></li>
+                    <li><a href="LEAL_Next.html" >Next Up</a></li>
                     <li><a href="index.html">Home</a></li>
                     </div>
               </ul>
@@ -36,17 +36,17 @@
     </header>
            
             <body>
-                <h3> Miami Grand Prix</h3>
+                <h3> China Grand Prix</h3>
                 <div class="info">
                     <table>
                         <tr>
                             <td>
-                 <p>Location: Miami International Autodrome </p>
-                 <p>Track Length: 5.412 kilometers</p>     
-                 <p>Lap count: 57 laps</p>
+                 <p>Location: Shanghai International Circuit </p>
+                 <p>Track Length: 5.451-kilometers</p>     
+                 <p>Lap count: 56 laps</p>
                             </td>
                           <td>
-                <img class="middlePhoto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Hard_Rock_Stadium_Circuit_2022.svg/250px-Hard_Rock_Stadium_Circuit_2022.svg.png"
+                <img class="middlePhoto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Shanghai_International_Racing_Circuit_track_map.svg/220px-Shanghai_International_Racing_Circuit_track_map.svg.png"
                 alt="Picture of the Shanghai Track, obtained from Wikipedia">
                           </td>  
                         </tr>
@@ -57,65 +57,78 @@
             <div class="left">
             <table style="margin-top: 0.6cm;">
                 <tr>
-                <th> Last Race Results (2023)</th>
+                <th> Last Race Results (2019)</th>
                 <th></th>
                 </tr>
                 <tr>
                     <td style="font-weight: bold;">Pole Position</td>
-                    <td>Sergio Pérez - RedBull</td>   
+                    <td>Valtteri Bottas - Mercedes</td>   
                 </tr>
                 <tr> 
                     <td style="font-weight: bold;">Podium</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td> Max Verstappen </td>
-                    <td> RedBull </td>
+                    <td> Louis Hamilton </td>
+                    <td> Mercedes </td>
                 </tr>
                 <tr>
-                    <td> Sergio Pérez</td>
-                    <td> RedBull</td>
+                    <td> Valtteri Bottas</td>
+                    <td> Mercedes</td>
                 </tr>
                 <tr>
-                    <td> Fernando Alonso</td>
-                    <td> Aston Martin </td>
+                    <td>Sebastian Vettel</td>
+                    <td> Ferrari </td>
                 </tr>
                 <tr> <td style="font-weight: bold;"> Fastest Lap</td>
-                    <td> Max Verstappen - Red Bull Racing</td></tr>
+                    <td>Pierre Gasly - Red Bull Racing-Honda</td></tr>
             </table>
-            <div class="countdown">
-            <h5> Time until the Miami Grand Prix:</h5>
-            <p class="countdowntext" id="demo"></p>
-            <script>
-                // Set the date we're counting down to
-                var countDownDate = new Date("May 5, 2024 16:00:00").getTime();
-                
-                // Update the count down every 1 second
-                var x = setInterval(function() {
-                
-                  // Get today's date and time
-                  var now = new Date().getTime();
-                    
-                  // Find the distance between now and the count down date
-                  var distance = countDownDate - now;
-                    
-                  // Time calculations for days, hours, minutes and seconds
-                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                    
-                  // Output the result in an element with id="demo"
-                  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                  + minutes + "m " + seconds + "s ";
-                    
-                  // If the count down is over, write some text 
-                  if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
-                  }
-                }, 1000);
-                </script>
+            <div class="rightRes">
+                <table>
+                    <tr>
+                    <th> Race Results (2024)</th>
+                    <th></th>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"> Sprint results</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Max Verstappen</td>
+                        <td> RedBull Racing</td>
+                    </tr>
+                    <tr>
+                        <td>Lewis Hamilton</td>
+                        <td> Mercedes </td>
+                    </tr>
+                    <tr>
+                        <td> Fernando Alonso </td>
+                        <td> Aston Martin </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Pole Position</td>
+                        <td>Max Verstappen - RedBull Racing</td>   
+                    </tr>
+                    <tr> 
+                        <td style="font-weight: bold;">Podium</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Max Verstappen </td>
+                        <td> RedBull Racing </td>
+                    </tr>
+                    <tr>
+                        <td> Lando Norris</td>
+                        <td> McLaren </td>
+                    </tr>
+                    <tr>
+                        <td> Sergio "Checo" Perez</td>
+                        <td> RedBull Racing </td>
+                    </tr>
+                    <tr> <td style="font-weight: bold;"> Fastest Lap</td>
+                        <td> Fernando Alonso - Aston Martin</td></tr>
+                </table>
+                </div>
             </div>
            <div class="derecha">
             <h3 style="color: black; font-size: 1.5em;"> Weekend Schedule</h3>
@@ -126,8 +139,8 @@
                 </tr>
                 <tr>
                     <td style="font-weight: bold;">
-                        May 03<br>
-                        12:30 - 13:30   <br>
+                        April 18<br>
+                        23:30 - 00:30   <br>
                     </td>
                     <td>
                         Free Practice 1
@@ -135,8 +148,8 @@
                 </tr>
                 <tr>
                     <td style="font-weight: bold;">
-                        May 03<br>
-                        16:30 - 17:15
+                        April 19<br>
+                        03:30 - 04:14
                     </td>
                     <td>
                         Sprint Qualifier
@@ -144,8 +157,8 @@
                 </tr>
                 <tr>
                     <td style="font-weight: bold;">
-                        May 04<br>
-                        12:00 - 13:00
+                        April 19<br>
+                        23:00 - 00:00
                     </td>
                     <td>
                         Sprint
@@ -153,8 +166,8 @@
                 </tr>
                 <tr>
                     <td style="font-weight: bold;">
-                        May 04<br>
-                        16:00 - 17:00
+                        April 20<br>
+                        03:00 - 04:00
                     </td>
                     <td>
                         Qualifier
@@ -162,8 +175,8 @@
                 </tr>
                 <tr>
                     <td style="font-weight: bold;">
-                        May 05<br>
-                        16:00
+                        April 21<br>
+                        03:00
                     </td>
                     <td>
                         Race

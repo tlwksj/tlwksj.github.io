@@ -1,38 +1,615 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="LEAL_Styl.css" media="screen,print"/>
-        <link rel="stylesheet" type="text/css" href="LEAL_mobStyl.css" media="screen and (max-width:950px)" />
-        <meta name = "Author" content="Trishelle Leal">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="LEAL_Java.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<title> Vroom Vroom Mania </title>
-    </head>
-    <header>
-        <div class="mobile">
-            <nav class = "menu">
-                <ul>
-                    <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+<head>
+    <link rel="stylesheet" type="text/css" href="LEAL_Styl.css" media="screen,print" />
+    <link rel="stylesheet" type="text/css" href="LEAL_mobStyl.css" media="screen and (max-width:950px)" />
+    <meta name="Author" content="Trishelle Leal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="LEAL_Java.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Vroom Vroom Mania </title>
+</head>
+<header>
+    <div class="mobile">
+        <nav class="menu">
+            <ul>
+                <a href="javascript:void(0);" class="icon" onclick="hamburger()">
                     <i class="fa fa-bars"></i>
-                    </a>
-                    <div id = "links">
+                </a>
+                <div id="links">
                     <li><a href="LEAL_Hist.html" class="active"> Historical </a></li>
                     <li><a href="LEAL_Grid.html"> Drivers </a></li>
-                    <li><a href="LEAL_Season.html" > Current Season</a></li>
-                    <li><a href="LEAL_Next.html" >Next Up</a></li>
+                    <li><a href="LEAL_Season.html"> Current Season</a></li>
+                    <li><a href="LEAL_Next.html">Next Up</a></li>
                     <li><a href="index.html">Home</a></li>
-                    </div>
-              </ul>
-            </nav>
-        </div>
-        <div class="brbr">
-            <br>
-            <br>
-            <br>
-        </div>
-            <h2 class="titulopag"> Historical </h2>
-    </header>
-            
-        </html>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="brbr">
+        <br>
+        <br>
+        <br>
+    </div>
+    <h2 class="titulopag"> Historical Records</h2>
+</header>
+<div class="derecha">
+    <div class="nonbrb">
+        <br><br><br>
+    </div>
+    <h3>Driver Records</h3>
+    <table>
+        <tr>
+            <th>
+                Record
+            </th>
+            <th>
+                Driver
+            </th>
+            <th>
+            </th>
+        </tr>
+        <tr>
+            <td>Driver Championship</td>
+            <td> Michael Schumacher<br>Lewis Hamilton</td>
+            <td> 7 championships</td>
+        </tr>
+        <tr>
+            <td>Driver wins</td>
+            <td>Lewis Hamilton</td>
+            <td>103 wins</td>
+        </tr>
+        <tr>
+            <td>Driver Podiums</td>
+            <td>Lewis Hamilton</td>
+            <td>197 podiums</td>
+        </tr>
+        <tr>
+            <td>Driver pole positions</td>
+            <td>Lewis Hamilton</td>
+            <td>105 pole positions</td>
+        </tr>
+        <tr>
+            <td>Driver sprint wins</td>
+            <td>Max Verstappen</td>
+            <td>8 wins</td>
+        </tr>
+        <tr>
+            <td>Laps driven</td>
+            <td>Fernando Alonso</td>
+            <td> 20,721 laps</td>
+        </tr>
+        <tr>
+            <td>Points scored</td>
+            <td>Lewis Hamilton</td>
+            <td>4,625.5 points</td>
+        </tr>
+    </table>
+</div>
+<div class="izq">
+    <h3> Team records </h3>
+    <table>
+        <tr>
+            <th>
+                Record
+            </th>
+            <th>
+                Team
+            </th>
+            <th>
+            </th>
+        </tr>
+        <tr>
+            <td>Constructor Championship</td>
+            <td>Ferrari</td>
+            <td>16 championships</td>
+        </tr>
+        <tr>
+            <td>Team wins</td>
+            <td>Ferrari</td>
+            <td>245 wins</td>
+        </tr>
+        <tr>
+            <td>Team Podiums</td>
+            <td>Ferrari</td>
+            <td>822 podiums</td>
+        </tr>
+        <tr>
+            <td>Team pole positions</td>
+            <td>Ferrari</td>
+            <td>248 pole positions</td>
+        </tr>
+        <tr>
+            <td>Team sprint wins</td>
+            <td>RedBull</td>
+            <td>9 wins</td>
+        </tr>
+    </table>
+</div>
+<div class="tablagrande">
+    <h3>Formula 1 circuits</h3>
+    <table>
+        <tr>
+            <th>Circuit</th>
+            <th>Location</th>
+            <th>Last Race</th>
+            <th>Races</th>
+        </tr>
+        <tr>
+            <td>A1-Ring</td>
+            <td>Spielburg, Austria</td>
+            <td>2003 Austrian Grand Prix</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Adelaide Street Circuit</td>
+            <td>Adelaide, Australia</td>
+            <td>1995 Australian Grand Prix</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Ain Diab</td>
+            <td>Casablanca, Morroco</td>
+            <td>1958 Moroccan Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Aintree</td>
+            <td>Liverpool, UK</td>
+            <td>1962 British Grand Prix</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Albert Park Grand Prix Circuit</td>
+            <td>Melbourne, Australia</td>
+            <td>2024 Australian Grand Prix</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Autódromo do Estoril</td>
+            <td>Estoril, Portugal</td>
+            <td>1996 Portuguese Grand Prix</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>Autodromo Enzo e Dino Ferrari</td>
+            <td>Imola, Italy</td>
+            <td>2022 Emilia Romagna Grand Prix</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>Autódromo Hermanos Rodriguez</td>
+            <td>Mexico City, Mexico</td>
+            <td>2023 Mexico City Grand Prix</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Autódromo Internacional do Algarve</td>
+            <td>Portimão, Portugal</td>
+            <td>2021 Portuguese Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Autódromo Internacional Nelson Piquet</td>
+            <td>Rio de Janeiro, Brazil</td>
+            <td>1989 Brazilian Grand Prix</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Autódromo Internazionale del Mugello</td>
+            <td>Mugello, Italy</td>
+            <td>2020 Tuscan Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Autódromo José Carlos Pace</td>
+            <td>São Paulo, Brazil</td>
+            <td>2023 São Paulo Grand Prix</td>
+            <td>41</td>
+        </tr>
+        <tr>
+            <td>Autódromo Juan y Oscar Gálvez</td>
+            <td>Buenos Aires, Argentina</td>
+            <td>1998 Argentine Grand Prix</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Autodromo Internazionale di Monza</td>
+            <td>Monza, Italy</td>
+            <td>2023 Italian Grand Prix</td>
+            <td>74</td>
+        </tr>
+        <tr>
+            <td>AVUS</td>
+            <td>Berlin, Germany</td>
+            <td>1959 German Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Bahrain International Circuit</td>
+            <td>Sakhir, Bahrain</td>
+            <td>2024 Bahrain Grand Prix</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Baku City Circuit</td>
+            <td>Baku, Azerbaijan</td>
+            <td>2022 Azerbaijan Grand Prix</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Baku City Circuit</td>
+            <td>Baku, Azerbaijan</td>
+            <td>2023 Azerbaijan Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Brands Hatch</td>
+            <td>Kent, UK</td>
+            <td>1986 British Grand Prix</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Buddh International Circuit</td>
+            <td>Uttar Pradesh, India</td>
+            <td>2013 Indian Grand Prix</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Charade Circuit</td>
+            <td>Clermont-Ferrand, France</td>
+            <td>1972 French Grand Prix</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Circuit Bremgarten</td>
+            <td>Bern, Switzerland</td>
+            <td>1954 Swiss Grand Prix</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Circuit de Barcelona-Catalunya</td>
+            <td>2022 Azerbaijan Grand Prix</td>
+            <td>Montmeló, Spain</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Circuit de Monaco</td>
+            <td>Monte-Carlo, Monaco</td>
+            <td>2023 Monaco Grand Prix</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Circuit de Nevers Magny-Cours</td>
+            <td>Magny Cours, France</td>
+            <td>2008 French Grand Prix</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Circuit de Pedralbes</td>
+            <td>Barcelona, Spain</td>
+            <td>1954 Spanish Grand Prix</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Circuit de Spa-Francorchamps</td>
+            <td>Spa, Belgium</td>
+            <td>2023 Belgian Grand Prix</td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td>Circuit Gilles Villenueve</td>
+            <td>Montréal, Canada</td>
+            <td>2023 Canadian Grand Prix</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Circuit Mont-Tremblant</td>
+            <td>Québec, Canada</td>
+            <td>1970 Canada Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Circuito da Boavista</td>
+            <td>Oporto, Portugal</td>
+            <td>1960 Portuguese Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Circuito de Jerez</td>
+            <td>Jerez de la Frontera, Spain</td>
+            <td>1997 European Grand Prix</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Circuit of the Americas</td>
+            <td>Austin, USA</td>
+            <td>2023 United States Grand Prix</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Circuit Park Zandvoort</td>
+            <td>Zandvoort, Netherlands</td>
+            <td>2023 Dutch Grand Prix</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Circuit Paul Ricard</td>
+            <td>Le Castellet, France</td>
+            <td>1984 French Grand Prix</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Detroit Street Circuit</td>
+            <td>Detroit, USA</td>
+            <td>1988 Detroit Grand Prix</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Dijon-Prenois</td>
+            <td>Dijon, Frances</td>
+            <td>1984 French Grand Prix</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Donington Park</td>
+            <td>Castle Donington, UK</td>
+            <td>1993 European Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Fair Park</td>
+            <td>Dallas, USA</td>
+            <td>1984 Dallas Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Fuji Speedway</td>
+            <td>Oyama, Japan</td>
+            <td>2008 Japanese Grand Prix</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Hockenheimring</td>
+            <td>Hockenheim, Germany</td>
+            <td>2019 German Grand Prix</td>
+            <td>37</td>
+        </tr>
+        <tr>
+            <td>Hungaroring</td>
+            <td>Budapest, Hungary</td>
+            <td>2023 Hungarian Grand Prix</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>Indianapolis Motor Speedway</td>
+            <td>Indianapolis, USA</td>
+            <td>2007 United States Grand Prix</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Istanbul Park</td>
+            <td>Istanbul, Turkey</td>
+            <td>2021 Turkish Grand Prix</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Jarama</td>
+            <td>Madrid, Spain</td>
+            <td>1981 Spanish Grand Prix</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Jeddah Street Circuit</td>
+            <td>Jeddah, Saudi Arabia</td>
+            <td>2024 Saudi Arabian Grand Prix</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Korean International Circuit</td>
+            <td>Yeongam County, South Korea</td>
+            <td>2013 Korean Grand Prix</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Kyalami</td>
+            <td>Midrand, South Africa</td>
+            <td>1993 South African Grand Prix</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Las Vegas Street Circuit</td>
+            <td>Las Vegas, USA</td>
+            <td>1982 Caesar Palace Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Las Vegas Strip Street Circuit</td>
+            <td>Las Vegas, USA</td>
+            <td>2023 Las Vegas Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Le Mans</td>
+            <td>Le Mans, France</td>
+            <td>1967 French Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Long Beach</td>
+            <td>Long Beach, USA</td>
+            <td>1983 United States Grand Prix West</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Losail International Circuit</td>
+            <td>Al Daayen, Qatar</td>
+            <td>2023 Qatar Grand Prix</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Marina Bay Street Circuit</td>
+            <td>Marina Bay, Singapore</td>
+            <td>2023 Singapore Grand Prix</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Miami Internationa Autodrome</td>
+            <td>Miami, USA</td>
+            <td>2024 Miami Grand Prix</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Monsato Park Circuit</td>
+            <td>Lisbon, Portugal</td>
+            <td>1959 Portuguese Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Montjuïc</td>
+            <td>Barcelona, Spain</td>
+            <td>1975 Spanish Grand Prix</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Mosport International Raceway</td>
+            <td>Ontario, Canada</td>
+            <td>1977 Canadian Grand Prix</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Nivelles-Baulers</td>
+            <td>Brussels, Belgium</td>
+            <td>1974 Belgian Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Nürburgring</td>
+            <td>Nürburg, Germany</td>
+            <td>2020 Eifel Grand Prix</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Okayama International Circuit</td>
+            <td>Okayama, Japan</td>
+            <td>1995 Pacific Grand Prix</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Pescara Circuit</td>
+            <td>Pescara, Italy</td>
+            <td>1957 Pescara Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Phoenix Street Circuit</td>
+            <td>Phoenix, USA</td>
+            <td>1991 United States Grand Prix</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Prince George Circuit</td>
+            <td>Eastern Cape Province, South Africa</td>
+            <td>1965 South African Grand Prix</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>RedBull Ring</td>
+            <td>Spielburg, Austria</td>
+            <td>2023 Austrian Grand Prix</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>Reims-Gueux</td>
+            <td>Reims, France</td>
+            <td>1966 French Grand Prix</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Riverside International Raceway</td>
+            <td>Riverside, USA</td>
+            <td>1960 United States Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Rouen-Les-Essarts</td>
+            <td>Rouen, France</td>
+            <td>1968 French Grand Prix</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Scandinavian Raceway</td>
+            <td>Anderstop, Sweden</td>
+            <td>1978 Swedish Grand Prix</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Sebring International Raceway</td>
+            <td>Florida, USA</td>
+            <td>1959 United States Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Sepang International Circuit</td>
+            <td>Kuala Lumpur, Malaysia</td>
+            <td>2017 Malaysia Grand Prix</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Shanghai International Circuit</td>
+            <td>Shanghai, China</td>
+            <td>2024 Chinese Grand Prix</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Silverstone Circuit</td>
+            <td>Silverstone, UK</td>
+            <td>2023 British Grand Prix</td>
+            <td>59</td>
+        </tr>
+        <tr>
+            <td>Sochi Autodrom</td>
+            <td>Sochi, Russia</td>
+            <td>2021 Russian Grand Prix</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Suzuka Circuit</td>
+            <td>Suzuka, Japan</td>
+            <td>2024 Japanese Grand Prix</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Watkins Glen</td>
+            <td>New York, USA</td>
+            <td>1980 United States Grand Prix</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Yas Marina Circuit</td>
+            <td>Abu Dhabi, UAE</td>
+            <td>2023 Abu Dhabi Grand Prix</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Zeltweg</td>
+            <td>Styria, Austria</td>
+            <td>1964 Austrian Grand Prix</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Zolder</td>
+            <td>Heusden-Zolder, Belgium</td>
+            <td>1984 Belgian Grand Prix</td>
+            <td>10</td>
+        </tr>
+    </table>
+</div>
+<div class="pastcard">
+    <h5>Past Races</h5>
+    <h4><a href="LEAL_China.html">China Grand Prix</a></h4>
+</div>
+
+</html>
