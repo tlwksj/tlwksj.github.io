@@ -317,3 +317,11 @@ footer {
 .pastcard{
   width: 90%;
 }
+.countdown{
+  width: 90%;
+  margin-top: 1cm;
+  float: right;
+  margin-left: 0.5cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+}
