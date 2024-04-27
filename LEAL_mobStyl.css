@@ -6,7 +6,6 @@ Done by: Trishelle Leal **/
 
 header {
   width: 100%;
-  display: relative;
   background-color: #2F2626;
 }
 
@@ -149,7 +148,6 @@ footer {
   text-indent: 0.5cm;
   width: 100%;
   margin-left: 0.5cm;
-  padding: -10px;
 }
 
 .middlePhoto {

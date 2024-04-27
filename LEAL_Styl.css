@@ -301,7 +301,6 @@ screen and (min-width: 480px) {
   text-indent: 0.5cm;
   width: 50%;
   margin-left: 0.5cm;
-  padding: -10px;
 }
 
 .middlePhoto {
@@ -309,7 +308,6 @@ screen and (min-width: 480px) {
   float: left;
   border-collapse: collapse;
   margin-left: 0.5cm;
-  padding: -0.5cm;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
