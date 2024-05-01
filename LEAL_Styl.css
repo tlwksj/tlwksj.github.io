@@ -378,6 +378,7 @@ screen and (min-width: 480px) {
   border-color: #000;
   width: 100%;
   margin-top: -0.5cm;
+  margin-right: 1cm;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -588,9 +589,9 @@ screen and (min-width: 480px) {
 }
 
 .countdown{
-  margin-top: -5cm;
+  margin-top: -8cm;
   float: right;
-  margin-right: 4cm;
+  margin-right: 5cm;
 }
 .countdown h5{
   font-size: 20px;
