@@ -158,7 +158,6 @@ footer {
 }
 
 .rightRes {
-  float: right;
   width: 100%;
 }
 
@@ -183,10 +182,14 @@ footer {
   border-collapse: collapse;
   border-color: #000;
   width: 100%;
-  margin-top: 10%;
-  margin-bottom: 0.5cm;
+  margin-top: 5cm;
+  margin-bottom: 1.5cm;
+  margin-right: -1.5cm;
 }
 
+.rightRes{
+  width: 100%;
+}
 .rightRes2 tr {
   background-color: #5d41aa81;
   color: #000000;
@@ -208,8 +211,8 @@ footer {
   border-collapse: collapse;
   border-color: #000;
   width: 100%;
-  margin-top: 10%;
-  margin-bottom: 0.5cm;
+  margin-top: 5cm;
+  margin-bottom: 1.5cm;
 }
 .derecha {
   float: right;
@@ -302,6 +305,11 @@ footer {
 .card {
   width: 90%;
   margin-left: -7%;
+}
+.Newcard{
+  width: 90%;
+  margin-left: 0.7cm;
+  margin-right: 0.7cm;
 }
 
 .Team {
