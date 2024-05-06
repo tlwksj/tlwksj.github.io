@@ -24,6 +24,7 @@ h3 {
 h2 {
   margin-top: 0.80cm;
   text-align: center;
+  width: 100%;
 }
 
 .mobile {
@@ -166,6 +167,7 @@ footer {
   color: #000000;
   text-align: left;
   height: fit-content;
+  
 }
 
 .rightRes th {
@@ -185,10 +187,33 @@ footer {
   margin-bottom: 0.5cm;
 }
 
+.rightRes2 tr {
+  background-color: #5d41aa81;
+  color: #000000;
+  text-align: left;
+  height: fit-content;
+  
+}
+
+.rightRes2 th {
+  background-color: #1d237763;
+  border-collapse: collapse;
+  min-width: 4px;
+  box-shadow: 0 0 20px rgba(30, 51, 30, 0.021);
+}
+
+.rightRes2 table {
+  height: 100%;
+  float: right;
+  border-collapse: collapse;
+  border-color: #000;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 0.5cm;
+}
 .derecha {
   float: right;
-  width: 98%;
-  margin-right: 3%;
+  width: 100%;
   margin-bottom: 10%;
 }
 
@@ -215,7 +240,39 @@ footer {
   margin-top: -0.5cm;
   margin-bottom: 0.5cm;
   margin-left: 0.5cm;
-  margin-right: 0.5cm;
+  margin-right: 0.2cm;
+
+}
+.derecha2 {
+  float: right;
+  width: 98%;
+  margin-right: 3%;
+  margin-bottom: 10%;
+}
+
+.derecha2 tr {
+  background-color: #aa414181;
+  color: #000000;
+  text-align: left;
+  height: fit-content;
+}
+
+.derecha2 th {
+  background-color: #771d1d63;
+  border-collapse: collapse;
+  min-width: 4px;
+  box-shadow: 0 0 20px rgba(30, 51, 30, 0.021);
+}
+
+.derecha2 table {
+  height: 90%;
+  float: right;
+  border-collapse: collapse;
+  border-color: #000;
+  width: 95%;
+  margin-top: -0.5cm;
+  margin-bottom: 0.5cm;
+  margin-right: 0.1cm;
 
 }
 
